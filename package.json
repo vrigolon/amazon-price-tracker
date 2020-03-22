@@ -1,0 +1,16 @@
+{
+  "name": "amazon-price-tracker",
+  "version": "1.0.0",
+  "description": "Track prices on amazon products and send email when price drop",
+  "main": "tracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.5",
+    "dotenv": "^8.2.0",
+    "nightmare": "^3.0.2"
+  }
+}
